@@ -1,3 +1,3 @@
 # webpack seed
 
- webpack+angular+bootstrap seed
+experimental webpack+angular+bootstrap seed
