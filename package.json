@@ -1,0 +1,44 @@
+{
+  "name": "web-seed",
+  "version": "1.0.0",
+  "description": "Web Seed",
+  "main": "index.js",
+  "author": "Alexandru Constantin",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.4.9",
+    "angular-ui-router": "^0.2.17",
+    "animate.css": "^3.5.1",
+    "bootstrap": "^3.3.6",
+    "copy-webpack-plugin": "^1.1.1",
+    "css-loader": "^0.23.1",
+    "extract-loader": "0.0.1",
+    "file-loader": "^0.8.5",
+    "html-loader": "^0.4.0",
+    "html-webpack-plugin": "^2.8.1",
+    "jquery": "^2.2.0",
+    "jshint": "^2.9.1",
+    "jshint-loader": "^0.8.3",
+    "lodash": "^4.2.1",
+    "ng-annotate-webpack-plugin": "^0.1.2",
+    "ngrequire-webpack-plugin": "^2.0.24",
+    "style-loader": "^0.13.0",
+    "webpack": "latest",
+    "webpack-dev-server": "latest"
+  },
+  "scripts": {
+    "build": "npm run clean; webpack  --progress --colors",
+    "start": "webpack-dev-server  --progress --colors",
+    "clean": "rm -r dist/*",
+    "env": "env",
+    "lint": "jshint src/**.js"
+  },
+  "devDependencies": {
+    "extract-text-webpack-plugin": "^1.0.1",
+    "html-webpack-plugin": "^2.8.1",
+    "imports-loader": "^0.6.5",
+    "less": "^2.6.0",
+    "less-loader": "^2.2.2",
+    "url-loader": "^0.5.7"
+  }
+}
