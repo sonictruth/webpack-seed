@@ -18,13 +18,7 @@ var appPaths = {
 var indexHtml = path.join(appPaths.src, 'index.html');
 var mainCss = path.join(appPaths.src, 'style.less');
 
-/*
-TODO: css less require ? assets file-loader webserver jshint
-commons js
-index html link hases
-https://www.npmjs.com/package/ng-annotate-loader
-Move webmodules to web modules
- */
+
 
 module.exports = {
     resolve: {
